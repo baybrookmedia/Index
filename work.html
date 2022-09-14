@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Baybrook Media | Honolulu, HI</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com"> 
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+ <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js">
+ </script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+video#bgvideo {
+position: fixed;
+top: 50%;
+left: 50%;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -100;
+-ms-transform: translateX(-50%) translateY(-50%);
+-moz-transform: translateX(-50%) translateY(-50%);
+-webkit-transform: translateX(-50%) translateY(-50%);
+transform: translateX(-50%) translateY(-50%);
+background: url(placeholder.jpg) no-repeat;
+background-size: cover;
+}
+
+@media screen and (max-device-width: 768px) {
+#hero {
+background: url(placeholder.jpg) no-repeat;
+background-size: cover;
+}
+#bgvideo {
+display: none;
+}
+}
+</style>
+
+<div id="hero">
+<video playsinline autoplay muted loop poster="placeholder.jpg" id="bgvideo" width="x" height="y">
+<source src="reel2022d1.mp4" type="video/mp4">
+</video>
+</div>
+
+ 
+</body>
+</html>
